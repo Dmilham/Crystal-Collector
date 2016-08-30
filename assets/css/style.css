@@ -1,0 +1,122 @@
+
+.container{
+	height: 630px;
+	width: 980px;
+	max-width:980px;
+}
+
+body {
+	background-repeat:no-repeat;
+	background-position:fixed ;
+	background-color: #175220;
+background-image: url("../images/dragon.jpeg");
+height: 630px;
+}
+
+#dragonPick{
+	float: left;
+	color: white;
+	border: inset;
+	border-width: 3px;
+	border-color: tan;
+	height: 128px;
+	width:100px;
+	margin-top:60px;
+	margin-left: 65px;
+}
+
+#playerSum{
+	clear: both;
+	color:white;
+	margin-top:-500px;
+	margin-left: 65px;
+	border: inset;
+	border-width: 3px;
+	border-color: tan;
+	height: 128px;
+	width:100px;
+}
+
+#score{	
+	clear: both;
+	float: left;
+	color:white;
+	margin-top:60px;
+	margin-left: 65px;
+	border: inset;
+	border-width: 3px;
+	border-color: tan;
+	height: 128px;
+	width:100px;}
+
+.btn-group{
+	margin-left: 95px;
+	margin-top: 305px;
+	padding-bottom: 10px;
+	opacity: 0.9;
+}
+
+#redGem{
+	transition: background-color 0.6s ease;
+	background-color: transparent;
+	border:none;
+}
+
+#redGem:hover{
+
+	background-color: #745;
+	opacity: 8.0;
+	border-color: green;
+
+}
+#blueGem {
+	clear:left;
+	transition: background-color 0.6s ease;
+    background-color: transparent;
+	border: none;
+}
+
+#blueGem:hover{
+	background-color: skyblue;
+	border-color: green;
+	opacity: 1.0;
+}
+
+#greenGem {
+	transition: background-color 0.8s ease;
+	background-color: transparent;
+	border: none;
+}
+#greenGem:hover{
+	background-color: lightgreen;
+	opacity: 1.0;
+	border-color: green;
+}
+
+#rubyGem {
+	transition: background-color 0.8s ease;
+	background-color: transparent;
+	border: none;
+}
+#rubyGem:hover{
+	background-color: #710;
+	opacity: 1.0;
+	border-color: green;
+}
+
+#valueRed { 
+	color: #e0ebce; 
+
+} 
+
+#valueBlue { 
+	color: #e0ebce; 
+}
+
+#valueGreen { 
+	color: #e0ebce; 
+}
+
+#valueRuby { 
+	color: #e0ebce; 
+}
