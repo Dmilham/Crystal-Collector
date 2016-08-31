@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html>
+<html class="fool">
 <head>
-	<audio autoplay> 
+	<audio class="music"autoplay> 
 		<source src="assets/audio/scratch.mp3" type="audio/mpeg">
 		</audio>
-		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+		<script src="https://code.jquery.com/jquery-3.1.0.js" integrity="sha256-slogkvB1K3VOkzAI8QITxV3VzpOnkeNVsKvtkYLMjfk=" crossorigin="anonymous"></script>
 		<link rel="stylesheet" href="assets/css/style.css" type="text/css">
 		<title>Crystal Collector</title>
 	</head>
 	<div id=container>
 		<body>
-			<div class="play">Play</div>
-			<div class="pause">Stop</div>
+
+		<p id = "rules"> Click the jewels to start your guessing.
+		Keep guessing until you match the dragons answer.</p>
+		 <p id="rules">   Go over and you lose!</p>
 
 			<p id="dragonPick">The coumputer's numbers go here</p>
 
 			<div class="btn-group">
 
-				<button class="btn-group" id="redGem">
+				<button  class="btn-group hvr-grow" id="redGem">
 					
 					<img src="assets/images/Red-Gem-64.png" alt="redGEm">
 
 					<div class="value" id ="valueRed"</div>
 					</button>
 
-					<button class="btn-group" id="blueGem">
+					<button class="btn-group  hvr-grow" id="blueGem">
 
 						<img src="assets/images/Blue-Gem-64.png" alt="blueGem">
 
@@ -32,14 +34,14 @@
 
 						</button>
 
-						<button class="btn-group" id="greenGem">
+						<button class="btn-group  hvr-grow" id="greenGem">
 
 							<img src="assets/images/Green-Gem-64.png" alt="greenGem">
 							
 							<div class="value" id = "valueGreen"</div>
 							</button>
 
-							<button class="btn-group" id="rubyGem">
+							<button class="btn-group  hvr-grow" id="rubyGem">
 
 								<img src="assets/images/Ruby-Gem-64.png" alt="ruby">
 
@@ -47,7 +49,7 @@
 								</button>
 							</div>
 
-							<div id="playerSum">Player sum:</div>
+							<div id="playerSum">Player Guess:</div>
 
 							<div id="score">Score:<p id="wins">Wins</p><p id="losses">Losses</p></div>
 

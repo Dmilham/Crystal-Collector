@@ -1,16 +1,32 @@
 
 .container{
-	height: 630px;
+	height: 732px;
 	width: 980px;
 	max-width:980px;
 }
 
 body {
-	background-repeat:no-repeat;
-	background-position:fixed ;
-	background-color: #175220;
-background-image: url("../images/dragon.jpeg");
-height: 630px;
+	 margin-top: 50px;
+
+    margin-bottom: 50px;
+
+    background: none;
+
+}
+
+
+.fool {
+
+  background: url("../images/dragon.jpeg") no-repeat center center fixed;
+
+  -webkit-background-size: cover;
+
+  -moz-background-size: cover;
+
+  -o-background-size: cover;
+
+  background-size: cover;
+
 }
 
 #dragonPick{
@@ -28,14 +44,15 @@ height: 630px;
 #playerSum{
 	clear: both;
 	color:white;
-	margin-top:-500px;
+	margin-top:-420px;
 	margin-left: 65px;
 	border: inset;
 	border-width: 3px;
 	border-color: tan;
 	height: 128px;
 	width:100px;
-}
+	}
+
 
 #score{	
 	clear: both;
@@ -62,13 +79,32 @@ height: 630px;
 	border:none;
 }
 
-#redGem:hover{
+.hvr-grow {
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
 
-	background-color: #745;
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+ transform: scale(1.1);
+}
+
+#rules{
+	color: white;
+}
+
+#redGem:hover{
+	background-color:#f5d9dd;
 	opacity: 8.0;
 	border-color: green;
-
 }
+#redGem:focus:{}
+
 #blueGem {
 	clear:left;
 	transition: background-color 0.6s ease;
@@ -89,7 +125,7 @@ height: 630px;
 }
 #greenGem:hover{
 	background-color: lightgreen;
-	opacity: 1.0;
+
 	border-color: green;
 }
 

@@ -6,6 +6,7 @@
 
 min = 19;
 max = 120;
+var = gemValue
 var computerPick = Math.floor(Math.random() * (max - min + 1)) + min;
 	var	printguess = $('#computerPick');
  			printguess.addClass('computerPick');
